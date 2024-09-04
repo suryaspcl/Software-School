@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>HTML Tables Row , Column span</title>
+        <style>
+            table,tr,th,td{
+                border: 1px solid rgb(7, 71, 35);
+            }
+        </style>
+        
+    </head>
+    <body>
+        <h1> Col Span </h1>
+        <table>
+            <tr>
+                <th> User Id </th>
+                <th> Name </th>
+                <th colspan="2"> Contact Details </th>
+                <th>Signup Date </th>
+                <th> Is Course Purchased </th>
+            </tr>
+            <tr>
+                <td> 1 </td>
+                <td> Surya </td>
+                <td > surya@gmail.com </td>
+                <td> 987456321 </td>
+                <td> 02-09-2024 </td>
+                <td> N0 </td>
+            </tr>
+            <tr>
+                <td> 2 </td>
+                <td> kumar </td>
+                <td> kumar@gmail.com </td>
+                <td> 987456322 </td>
+                <td> 04-09-2024 </td>
+                <td> Yes </td>
+            </tr>
+            <tr>
+                <td> 3 </td>
+                <td> praveen </td>
+                <td> praveen@gmail.com </td>
+                <td> 987456323 </td>
+                <td> 05-09-2024 </td>
+                <td> Yes </td>
+            </tr>
+        </table>
+        <hr/>
+
+        <h1> Row Span </h1>
+        <table>
+            <tr>
+                <th> User Id </th>
+                <th> Name </th>
+                <th colspan="2"> Contact Details </th>
+                <th>Signup Date </th>
+                <th> Is Course Purchased </th>
+            </tr>
+            <tr>
+                <td> 1 </td>
+                <td> Surya </td>
+                <td > surya@gmail.com </td>
+                <td> 987456321 </td>
+                <td> 02-09-2024 </td>
+                <td> N0 </td>
+            </tr>
+            <tr>
+                <td> 2 </td>
+                <td> kumar </td>
+                <td> kumar@gmail.com </td>
+                <td> 987456322 </td>
+                <td> 04-09-2024 </td>
+                <td rowspan="2"> Yes </td>
+            </tr>
+            <tr>
+                <td> 3 </td>
+                <td> praveen </td>
+                <td> praveen@gmail.com </td>
+                <td> 987456323 </td>
+                <td> 05-09-2024 </td>
+               
+            </tr>
+        </table>
+    </body>
+</html>
