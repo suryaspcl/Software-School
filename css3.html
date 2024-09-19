@@ -1,8 +1,70 @@
 <html>
-    <head>
-        <title></title>
-    </head>
-    <body>
-        
-    </body>
+  <head>
+    <title>Css</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="script.js" />
+    <style>
+      body {
+        font-family: "Open Sans", sans-serif;
+      }
+
+      .img {
+        width: 100%;
+      }
+      li {
+        text-decoration: none;
+      }
+      .card {
+        width: 30%;
+        margin-top: 10px;
+        border: 1px solid #000;
+        border-radius: 10px;
+        overflow: hidden;
+        }
+      .main {
+        width: 70%;
+        margin: auto;
+      }
+
+      .round {
+        border-radius: 50%;
+        width: 50%;
+        margin-top: 10px;
+        border: 1px solid #000;
+      }
+      .text-center{
+        text-align: center;
+      }
+      .w-50{
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <img src="1.png" />
+      <p>HTML, CSS, Bootstrap, TypeScript, React, Git, Website Hosting</p>
+      <ul>
+        <li>3 months duration</li>
+        <li>Real-time concepts</li>
+        <li>Beginner to job-ready</li>
+        <li>Industry experts as tutors</li>
+      </ul>
+    </div>
+
+    <div class="main">
+      <img src="2.png" class="img" />
+
+      <div class="card">
+        <img src="2.png" class="img" />
+      </div>
+
+      <div class="w-50 text-center">
+        <img src="Daddy.jpeg" class="round" />
+      </div>
+    </div>
+  </body>
 </html>
