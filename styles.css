@@ -1,0 +1,55 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(247, 250, 255);
+  }
+  .main {
+    width: 75%;
+    margin: auto;
+  }
+  .header {
+    background-color: #fff;
+    height: 75px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    font-weight: 800;
+    font-weight: 25px;
+    margin-left: 20px;
+  }
+  .nav-links {
+    display: flex;
+  }
+  li {
+    list-style: none;
+    margin-right: 25px;
+  }
+  .steps-section {
+    background-color: rgba(0, 201, 167, 0.1);
+    min-height: 300px;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .pt-50 {
+    padding-top: 35px;
+  }
+  .card {
+    background-color: #fff;
+    padding: 20px;
+  }
+  .steps {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+
+  .mb-200 {
+    margin-bottom: 200px;
+  }
+  .pb-50 {
+    padding-bottom: 50px;
+  }
